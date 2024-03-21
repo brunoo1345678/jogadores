@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root {
+    --cor-primaria: #FEECE2;
+    --cor-secundaria: #A0153E;
+    --cor-terciaria: #5D0E41;
+    --cor-quaternaria: #00224D;
+    --fonte-principal: "Russo One", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho__principal {
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__menu {
+    align-items: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-quaternaria);
+}
+
+.cabecalho__menu__link {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.imagem__inicio {
+    width: 100%;
+}
+
+.principal__segundo,
+.principal__terceiro,
+.principal__quarto {
+    background-color: var(--cor-primaria);
+}
+
+.jogadores {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    align-items: center;
+    line-height: 2;
+}
+
+.jogadores__titulo {
+
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+
+}
+
+.jogadores__paragrafo {
+    font-size: 18px;
+    text-align: center;
+}
+
+.cris__messi__ney {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    align-items: center;
+}
+
+.cris__messi__ney__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    color: var(--cor-secundaria);
+}
+
+.cris__messi__ney__paragrafo {
+    font-size: 18px;
+    text-align: center;
+    line-height: 2;
+}
+
+.cris__messi__ney__imagens {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cris__messi__ney__img__dentro {
+    width: 550px;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.rodape {
+
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;   
+    font-weight: 400;
+}
